@@ -2,6 +2,7 @@ import React from "react";
 import Button4 from "./Button4";
 import Reactions from "./Reactions";
 import { ArrowLeftCircle, ArrowRightCircle } from "lucide-react";
+import card7 from "../assets/images/card7.jpg";
 
 const Section5 = () => {
   return (
@@ -38,11 +39,7 @@ const Section5 = () => {
           </h1>
         </div>
 
-        <img
-          src="src/assets/images/card7.jpg"
-          alt=""
-          className="h-full rounded-3xl"
-        />
+        <img src={card7} alt="" className="h-full rounded-3xl" />
       </div>
     </div>
   );
