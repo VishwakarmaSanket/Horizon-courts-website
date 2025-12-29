@@ -3,6 +3,7 @@ import Button1 from "./Button1";
 import Button2 from "./Button2";
 import Button4 from "./Button4";
 import Card6 from "./Card6";
+import section4 from "../assets/images/section4.png";
 
 const Section4 = () => {
   return (
@@ -51,7 +52,7 @@ const Section4 = () => {
         </p>
         <div className="h-full w-full flex items-center justify-center">
           <img
-            src="src\assets\images\section4.png"
+            src={section4}
             alt="img"
             className="h-full w-100 object-cover object-center rounded-2xl"
           />

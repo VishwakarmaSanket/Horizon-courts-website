@@ -1,5 +1,6 @@
 import React from "react";
 import Social from "./Social";
+import bottom from "../assets/images/bottom.png";
 
 const Hero = () => {
   return (
@@ -20,11 +21,7 @@ const Hero = () => {
       </div>
       <div className="bottom flex items-center justify-between w-full">
         <div className="left h-[58%] flex items-center justify-around gap-2">
-          <img
-            src="src/assets/images/bottom.png"
-            alt="img"
-            className="h-full"
-          />
+          <img src={bottom} alt="img" className="h-full" />
           <p>
             Train with real professionals <br />
             Get the real results
