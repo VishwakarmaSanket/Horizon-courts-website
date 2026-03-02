@@ -17,13 +17,13 @@
 }
 
 :root {
-  font-family: Montserrat, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Urbanist', Montserrat, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: light;
+  color: #0D1A2D;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

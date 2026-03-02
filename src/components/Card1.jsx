@@ -2,29 +2,19 @@ import React from "react";
 
 const Card1 = () => {
   return (
-    <div
-      className="card1 h-[24vw] w-[24vw] bg-[#0D1A2D] py-10 px-6 rounded-3xl
-          flex
-          flex-col
-          gap-8"
-    >
-      <p className="text-xl font-normal text-[#F8FCFF]">
-        Profesional hard courts <br />
-        <span className="text-[#637286]">
-          with tournament -grade <br />
-          lighting & climate control
-          <br />
-          play in -
+    <div className="card1 aspect-square bg-[#0D1A2D] p-8 rounded-3xl flex flex-col justify-between shadow-sm">
+      <p className="text-lg lg:text-xl font-normal text-[#F8FCFF] leading-snug">
+        Professional hard courts 
+        <span className="text-[#637286] block mt-1">
+          with tournament-grade lighting & climate control. Play in 
+          perfect conditions, in any season.
         </span>
-        perfect conditions,
-        <br />
-        in any season.
       </p>
-      <div className="flex items-center gap-2">
-        <div className="btn bg-[#2DB4FF] h-6 w-16 px-2 rounded-[50px] flex items-center justify-end cursor-pointer">
-          <div className="circle bg-white h-4 w-4 rounded-full"></div>
+      <div className="flex items-center gap-3">
+        <div className="btn bg-[#2DB4FF] h-7 w-14 p-1 rounded-full flex items-center justify-end cursor-pointer transition-transform hover:scale-105">
+          <div className="circle bg-white h-5 w-5 rounded-full shadow-sm"></div>
         </div>
-        <h1 className="text-[#637286]">Game Mode</h1>
+        <h1 className="text-[#637286] text-sm font-medium">Game Mode</h1>
       </div>
     </div>
   );

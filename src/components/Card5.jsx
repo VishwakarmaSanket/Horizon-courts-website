@@ -9,10 +9,10 @@ const Card5 = () => {
           <h1 className="font-medium">Private & Group Lessons</h1>
         </div>
         <div className="bottom flex items-center justify-between w-full">
-          <p className="font-medium">
+          <p className="font-medium text-white">
             Program designed for <br /> all ages and abilities
           </p>
-          <div className="bg-[#0D1A2D] h-10 w-10 rounded-full flex items-center justify-center">
+          <div className="bg-white h-10 w-10 rounded-full flex items-center justify-center">
             <ArrowUpRight />
           </div>
         </div>

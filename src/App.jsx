@@ -21,18 +21,20 @@ import Section7 from "./components/Section7";
 
 const App = () => {
   return (
-    <div className="bg-[#FFFFFF] px-10 py-6 flex flex-col gap-6">
-      <NavBar />
-      <Hero />
-      <Section1 />
-      <Cards />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      <Footer />
+    <div className="bg-white min-h-screen">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col gap-12">
+        <NavBar />
+        <Hero />
+        <Section1 />
+        <Cards />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <Section7 />
+        <Footer />
+      </div>
     </div>
   );
 };
